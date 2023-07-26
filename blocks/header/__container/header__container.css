@@ -1,8 +1,0 @@
-.header__container {
-    width: 92.5%;
-    min-width: 928px;
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-    align-items: flex-end;
-}

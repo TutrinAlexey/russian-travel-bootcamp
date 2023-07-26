@@ -1,4 +1,6 @@
 .header__links {
     display: flex;
     column-gap: 18px;
+    align-items: flex-end;
+    padding-bottom: 4px;
 }
