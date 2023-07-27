@@ -6,3 +6,37 @@
     /*96px это сумма полей по бокам*/
     margin: 28px auto 56px;
 }
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 896px) {
+    .header {
+        width: calc(100vw - 48px);
+        /*48px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 544px) {
+    .header {
+        width: calc(100vw - 32px);
+        /*32px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        margin-top: 16px;
+    }
+}

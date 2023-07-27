@@ -9,3 +9,25 @@
     line-height: 100px;
     padding-bottom: 32px;
 }
+
+@media (max-width: 700px) {
+    .lead__title {
+        max-width: 530px;
+        font-size: 68px;
+        line-height: 72px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__title {
+        padding-bottom: 16px;
+    }
+}

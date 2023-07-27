@@ -7,3 +7,31 @@
     font-weight: 900;
     line-height: 76px;
 }
+
+@media (max-width: 1024px) {
+    .place__header {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__header {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 500px) {
+    .place__header {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__header {
+        padding-left: 16px;
+    }
+}

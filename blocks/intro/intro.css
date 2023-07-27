@@ -5,3 +5,41 @@
     max-width: 984px;
     margin: 0 auto;
 }
+
+@media (max-width: 1152px) {
+    .intro {
+        width: calc(100vw - 96px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 896px) {
+    .intro {
+        width: calc(100vw - 48px);
+        /*48px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 544px) {
+    .intro {
+        width: calc(100vw - 32px);
+        /*32px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+    }
+}

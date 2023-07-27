@@ -1,8 +1,50 @@
 .places {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: calc(100vw - 196px);
     max-width: 984px;
     margin: 0 auto;
     gap: 80px;
+}
+
+@media (max-width: 1152px) {
+    .places {
+        width: calc(100vw - 96px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 896px) {
+    .places {
+        width: calc(100vw - 48px);
+        /*48px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        gap: 73px;
+    }
+}
+
+@media (max-width: 544px) {
+    .places {
+        width: calc(100vw - 32px);
+        /*32px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        width: 100vw;
+        max-width: 320px;
+        gap: 50px;
+    }
 }

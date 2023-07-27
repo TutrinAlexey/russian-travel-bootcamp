@@ -9,3 +9,31 @@
     line-height: 36px;
     padding-bottom: 64px;
 }
+
+@media (max-width: 1024px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+}
+
+@media (max-width: 700px) {
+    .lead__subtitle {
+        max-width: 530px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 544px) {
+    .lead__subtitle {
+        padding-bottom: 40px;
+    }
+}
