@@ -2,49 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100vw - 196px);
+    width: calc(100vw - 296px);
+    /*296px сумма полей по бокам*/
     max-width: 984px;
     margin: 0 auto;
     gap: 80px;
 }
 
-@media (max-width: 1152px) {
-    .places {
-        width: calc(100vw - 96px);
-    }
-}
-
 @media (max-width: 1024px) {
     .places {
-        max-width: 928px;
-    }
-}
-
-@media (max-width: 896px) {
-    .places {
-        width: calc(100vw - 48px);
-        /*48px это сумма полей по бокам*/
+        width: calc(100vw - 96px);
+        /*96px сумма полей по бокам*/
     }
 }
 
 @media (max-width: 768px) {
     .places {
-        max-width: 720px;
+        width: calc(100vw - 48px);
+        /*48px сумма полей по бокам*/
         gap: 73px;
     }
 }
 
-@media (max-width: 544px) {
+@media (max-width: 540px) {
     .places {
-        width: calc(100vw - 32px);
-        /*32px это сумма полей по бокам*/
+        gap: 50px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .places {
-        width: 100vw;
+        width: 100%;
         max-width: 320px;
-        gap: 50px;
     }
 }

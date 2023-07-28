@@ -2,7 +2,22 @@
     display: flex;
     justify-content: space-between;
     width: calc(100vw - 96px);
-    max-width: 1184px;
     /*96px это сумма полей по бокам*/
     margin: 0 auto 24px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: calc(100vw - 48px);
+        /*48px это сумма полей по бокам*/
+    }
+}
+
+@media (max-width: 700px) {
+    .footer {
+        width: calc(100vw - 32px);
+        /*32px это сумма полей по бокам*/
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }

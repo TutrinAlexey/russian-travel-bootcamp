@@ -1,6 +1,6 @@
 .place__header {
     margin: 0;
-    max-width: 460px;
+    width: 100%;
     color: #FFF;
     font-size: 72px;
     font-style: normal;
@@ -8,30 +8,23 @@
     line-height: 76px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 856px) {
     .place__header {
-        max-width: 440px;
-    }
-}
-
-@media (max-width: 768px) {
-    .place__header {
-        max-width: 340px;
         font-size: 42px;
         line-height: 46px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .place__header {
-        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .place__header {
-        padding-left: 16px;
+        width: calc(100% - 32px);
+        margin: 0 auto;
     }
 }

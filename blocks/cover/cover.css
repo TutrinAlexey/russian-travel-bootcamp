@@ -1,6 +1,19 @@
 .cover {
     display: flex;
-    max-width: 1184px;
+    width: calc(100vw - ((max( 100vw , 1024px ) - 1024px) * (96 / 256)));
+    /*96px сумма полей по бокам*/
     justify-content: center;
     margin: 92px auto;
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin: 90px auto 88px;
+    }
+}
+
+@media (max-width: 340px) {
+    .cover {
+        margin: 66px auto 64px;
+    }
 }

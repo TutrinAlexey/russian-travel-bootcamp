@@ -10,3 +10,12 @@
     padding-bottom: 32px;
     z-index: 2;
 }
+
+@media (max-width: 520px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 16px;
+    }
+}

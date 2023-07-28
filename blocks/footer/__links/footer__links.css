@@ -6,3 +6,11 @@
     flex-direction: row;
     gap: 18px;
 }
+
+@media (max-width: 700px) {
+    .footer__links {
+        gap: 32px;
+        padding-bottom: 48px;
+        flex-direction: column;
+    }
+}

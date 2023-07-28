@@ -1,6 +1,7 @@
 .place__link {
     margin: 0;
     color: #FFF;
+    width: 100%;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -13,8 +14,3 @@
     cursor: pointer;
 }
 
-@media (max-width: 320px) {
-    .place__link {
-        padding-left: 16px;
-    }
-}
