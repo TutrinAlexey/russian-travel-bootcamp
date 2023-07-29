@@ -2,25 +2,25 @@
     width: 100%;
     margin: 0;
     display: grid;
-    grid-template-columns: 0.95fr 1fr;
+    grid-template-columns: 460px 1fr;
     gap: 48px 40px;
 }
 
 @media (max-width: 1024px) {
     .place {
-        grid-template-columns: 0.965fr 1fr;
+        grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
 }
 
 @media (max-width: 856px) {
     .place {
-        grid-template-columns: 0.966fr 1fr;
+        grid-template-columns: 340px 1fr;
         gap: 48px 28px;
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
     .place {
         grid-template-columns: 1fr;
         gap: 32px;

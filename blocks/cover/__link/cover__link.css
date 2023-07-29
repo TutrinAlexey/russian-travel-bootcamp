@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: calc((100vw - 96px) * (740 / 1184 ));
+    background-position-x: 100%;
+    min-height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +33,6 @@
 
 @media (max-width: 1024px) {
     .cover__link {
-        height: calc(100vw * (740 / 1184 ));
+        min-height: calc(100vw * (740 / 1184 ));
     }
 }
