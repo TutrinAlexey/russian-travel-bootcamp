@@ -1,19 +1,34 @@
 .cover {
-    display: flex;
-    width: calc(100vw - ((max( 100vw , 1024px ) - 1024px) * (96 / 256)));
-    /*96px сумма полей по бокам*/
-    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../../../images/cover__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100vw - 96px);
+    max-width: 1184px;
+    background-position: center;
     margin: 92px auto;
 }
+
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        max-width: 1024px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .cover {
         margin: 90px auto 88px;
+        max-width: 768px;
     }
 }
 
 @media (max-width: 340px) {
     .cover {
         margin: 66px auto 64px;
+        max-width: 320px;
     }
 }

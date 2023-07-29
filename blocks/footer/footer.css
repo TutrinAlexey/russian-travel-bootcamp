@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: calc(100vw - 96px);
+    max-width: 1184px;
     /*96px это сумма полей по бокам*/
     margin: 0 auto 24px;
 }

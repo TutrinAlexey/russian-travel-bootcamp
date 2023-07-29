@@ -1,0 +1,9 @@
+.content {
+    width: calc(100vw - 96px);
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+}

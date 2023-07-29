@@ -1,11 +1,6 @@
 .cover__link {
-    position: relative;
     margin: 0;
-    background-image: url(../../../images/cover__background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
-    background-position-x: 100%;
     min-height: 740px;
     display: flex;
     justify-content: center;
@@ -33,6 +28,18 @@
 
 @media (max-width: 1024px) {
     .cover__link {
-        min-height: calc(100vw * (740 / 1184 ));
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cover__link {
+        min-height: 200px;
     }
 }
