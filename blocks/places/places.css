@@ -9,7 +9,7 @@
     gap: 80px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1070px) {
     .places {
         width: calc(100vw - 96px);
         /*96px сумма полей по бокам*/
